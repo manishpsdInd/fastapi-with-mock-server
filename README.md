@@ -34,5 +34,8 @@ Instead of using non-accessed and blocked urls or files, this example routes net
     "summary": "User session is blocked by an enterprise Mimecast proxy rule."
 }
 ~~~
-#### 5.2.
+#### 5.2. Swagger request and response
 ![Output-Screenshot-json.png](src/main/resources/output/Output-Screenshot-json.png)
+
+#### 5.3. mocked server json processing output
+![mocked-server-json-processing-output.png](src/main/resources/output/mocked-server-json-processing-output.png)
