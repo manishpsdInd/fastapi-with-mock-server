@@ -25,8 +25,8 @@ Instead of using non-accessed and blocked urls or files, this example routes net
   "detail":"Not Found"
 }
 ~~~
-#### Start java application access swagger in [8080](http://localhost:8080/swagger-ui/index.html)
-#### Sample Mocker Json Reponse:
+#### 4. Start java application access swagger in [8080](http://localhost:8080/swagger-ui/index.html)
+#### 5.1. Sample Mocker Json Reponse:
 ~~~json
 {
     "category": "Network & Access",
@@ -34,4 +34,5 @@ Instead of using non-accessed and blocked urls or files, this example routes net
     "summary": "User session is blocked by an enterprise Mimecast proxy rule."
 }
 ~~~
-#### 5.2. [Swagger response in json]((src/main/resources/output/Output-Screenshot-json.png))
+#### 5.2.
+![Output-Screenshot-json.png](src/main/resources/output/Output-Screenshot-json.png)
