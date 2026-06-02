@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: fastapi-with-mock-server
+
+  ai:
+    ollama:
+      base-url: http://127.0.0.1:8000
+    chat:
+      options:
+        model: mock-model
+
+springdoc:
+  packages-to-scan: ai.support.controller
+  api-doc:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui
+    operations-sorter: alpha
